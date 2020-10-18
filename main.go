@@ -27,7 +27,7 @@ func main() {
 		os.Exit(1)
 	}
 	if channels == "" {
-		fmt.Fprintf(os.Stderr, "Please supply a list of channel IDs via")
+		fmt.Fprintf(os.Stderr, "Please supply a list of channel IDs via --channels")
 		os.Exit(1)
 	}
 
